@@ -95,3 +95,41 @@ nav ul{
     color: #838383;
     font-weight: 500;
 }
+
+/* menu style */
+.menu-container{
+    margin-top: 80px;
+    height: 800px;
+    margin-left: 124px;
+    margin-right: 124px;
+}
+.popular-menu{
+    margin: 0 300px;
+    margin-top: 32px;
+    /* display: flex; */
+     /* gap: 157px; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    gap: 50px;
+}
+.menu-img{
+    width: 230px;
+    height:230px ;
+    padding: 10px 25px ;
+    background-color: #e9e8e7 ;
+    border-radius: 15px;
+}
+.menu-icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.menu-card{
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    height: 361px;
+    width: 280px;
+   
+}
